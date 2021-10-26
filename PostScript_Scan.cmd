@@ -21,6 +21,8 @@ set scanlogfolder=D:\PostScript Scan
 
 set scanlogfilename=PostScript_Scan_Log.txt
 
+set scanoutputfilename=Jobs_with_PostScript_Fonts.tsv
+
 set emailserver=mail.example.com
 
 set emailto=recipient@example.com
@@ -35,11 +37,12 @@ REM - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
 del "%scanlogfolder%\%scanlogfilename%" /Q
+del "%scanlogfolder%\%scanoutputfilename%" /Q
 
 > "%scanlogfolder%\%scanlogfilename%" 2>&1 (
 
-"%exiftoollocation%\exiftool.exe" -T -m -directory -filename -fontname -fontfilename -r -if "$FontType =~ /PostScript/" "%scanfolder%" > "%scanlogflder%\%scanlogfilename%"
+"%exiftoollocation%\exiftool.exe" -T -m -directory -filename -fontname -fontfilename -r -if "$FontType =~ /PostScript/" "%scanfolder%" > "%scanlogflder%\%scanoutputfilename%"
 
 )
 
-"%blatlocation%\blat.exe" "%scanlogfolder%\%scanlogfilename%" -to %emailto% -f %emailfrom% -s %emailsubject% -server %emailserver%
+"%blatlocation%\blat.exe" "%scanlogfolder%\%scanoutputfilename%" -to %emailto% -f %emailfrom% -s %emailsubject% -server %emailserver%
