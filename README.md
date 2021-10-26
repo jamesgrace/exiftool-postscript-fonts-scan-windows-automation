@@ -20,6 +20,8 @@ Microsoft Windows Batch script that performs recursive scanning ( _within a fold
     * Folder location containing scan logs.
   * `scanlogfilename` = `PostScript_Scan_Log.txt`
     * Filename for the scan log.
+  * `scanoutputfilename` = `Jobs_with_PostScript_Fonts.tsv`
+    * Filename for the output log.
   * `emailserver` = `mail.example.com`
     * Email - Server:
   * `emailto` = `recipient@example.com`
