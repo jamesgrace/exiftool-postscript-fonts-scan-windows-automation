@@ -1,5 +1,5 @@
 # exiftool-postscript-fonts-scan-windows-automation
-Microsoft Windows Batch script that performs recursive scanning ( _within a folder structure_ ) for files containing `XMP-TPg:Fonts` metadata. Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
+Microsoft Windows Batch script that performs recursive scanning ( _within a folder structure_ ) for files containing `XMP-TPg:Fonts` PostScript metadata values. Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
 
 #### Requirements :
 * ExifTool - https://exiftool.org/install.html
