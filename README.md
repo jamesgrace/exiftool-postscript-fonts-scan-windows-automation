@@ -26,7 +26,7 @@ Microsoft Windows Batch script that performs recursive scanning ( _within a fold
     * Email - To:
   * `emailfrom` = `server_noreply@example.com`
     * Email - From:
-  * `emailsubject` = `"Automation Notification: PostSCript Scan Log"`
+  * `emailsubject` = `"Automation Notification: PostScript Scan Log"`
     * Email - Subject:
 
 :star: Detailed information regarding Adobe's PostScript Type 1 fonts end of life can be found here : https://helpx.adobe.com/fonts/kb/postscript-type-1-fonts-end-of-support.html
