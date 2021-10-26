@@ -47,4 +47,4 @@ del "%scanlogfolder%\%scanoutputfilename%" /Q
 
 )
 
-"%blatlocation%\blat.exe" "%scanlogfolder%\%scanoutputfilename%" -to %emailto% -f %emailfrom% -s %emailsubject% -server %emailserver%
+"%blatlocation%\blat.exe" -to %emailto% -f %emailfrom% -s %emailsubject% -server %emailserver% -body %emailbody% -attach "%scanlogfolder%\%scanlogfilename%","%scanlogfolder%"\%scanoutputfilename%"
