@@ -31,6 +31,8 @@ set emailfrom=server_noreply@example.com
 
 set emailsubject="Automation Notification: PostScript Scan Log"
 
+set emailbody="See the attached - PostScript Scan Log - Report in TSV ( Tab Separated Value ) format..."
+
 
 REM - - - - - - - - - - - - - - - - - - - - - - - - -
 REM - - - - - - - - - - - - - - - - - - - - - - - - -
