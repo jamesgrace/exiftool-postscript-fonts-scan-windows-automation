@@ -26,8 +26,8 @@ Microsoft Windows Batch script that performs recursive scanning ( _within a fold
     * Email - To:
   * `emailfrom` = `server_noreply@example.com`
     * Email - From:
-  * `emailsubject` = `"Automation Notification: ExifTool Scan Log"`
+  * `emailsubject` = `"Automation Notification: PostSCript Scan Log"`
     * Email - Subject:
 
 :star: Detailed information regarding Adobe's PostScript Type 1 fonts end of life can be found here : https://helpx.adobe.com/fonts/kb/postscript-type-1-fonts-end-of-support.html
-and here : https://helpx.adobe.com/photoshop/kb/announcement-end-of-support-postscript-type-1-fonts.html
+as well as infomration regarding Adobe Photoshop's PostScript Type 1 font end of life scheduled for 2021 : https://helpx.adobe.com/photoshop/kb/announcement-end-of-support-postscript-type-1-fonts.html
